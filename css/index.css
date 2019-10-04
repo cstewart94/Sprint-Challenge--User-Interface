@@ -255,6 +255,16 @@ footer nav a {
     border: 1.5px solid black;
     font-size: 14px;
 }
+/*IMG TRANSITIONS*/
+
+.grid .gridChild .gridGrandchild img{
+    transition: width 1s, height 1s;
+}
+
+.grid .gridChild .gridGrandchild img:hover{
+    width: 500px;
+    height: 300px;
+}
 /*END INFO GRID*/
 
 /*BOTTOM WORK TOGETHER SECTION*/
