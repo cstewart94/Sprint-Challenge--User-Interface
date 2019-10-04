@@ -74,13 +74,13 @@ p {
 header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
-    width: 550px;
+    justify-content: space-around;
+    width: 600px;
     align-items:flex-end;
 }
 
@@ -94,6 +94,10 @@ nav a{
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img{
+    margin-bottom: 30px;
 }
 
 .top-content .text-container {
@@ -129,6 +133,45 @@ nav a{
     justify-content: center;
 }
 
+.middle-content .boxes .boxOne{
+    background-color:teal;
+}
+
+.middle-content .boxes .boxTwo{
+    background-color:gold;
+}
+
+.middle-content .boxes .boxThree{
+    background-color:cadetblue;
+}
+
+.middle-content .boxes .boxFour{
+    background-color:coral;
+}
+
+.middle-content .boxes .boxFive{
+    background-color:crimson;
+}
+
+.middle-content .boxes .boxSix{
+    background-color:forestgreen;
+}
+
+.middle-content .boxes .boxSeven{
+    background-color:darkorchid;
+}
+
+.middle-content .boxes .boxEight{
+    background-color:hotpink;
+}
+
+.middle-content .boxes .boxNine{
+    background-color:indigo;
+}
+
+.middle-content .boxes .boxTen{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
