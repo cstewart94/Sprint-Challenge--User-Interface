@@ -70,11 +70,11 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-
+/*HEADER & NAV BAR*/
 header{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin: 30px 0;
 }
 
 nav{
@@ -82,12 +82,16 @@ nav{
     justify-content: space-around;
     width: 600px;
     align-items:flex-end;
+  
 }
 
 nav a{
     text-decoration: none;
     color: black;
 }
+/*END HEADER & NAV*/
+
+/*HOME PAGE TOP CONTENT & IMAGE*/
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +109,9 @@ nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/*END TOP CONTENT*/
 
+/*HOME PAGE COLORED BOXES*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -172,6 +178,9 @@ nav a{
 .middle-content .boxes .boxTen{
     background-color:dodgerblue;
 }
+/*END COLORED BOXES*/
+
+/*HOME PAGE BOTTOM TEXT CONTAINERS*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -185,7 +194,9 @@ nav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/*END BOTTOM TEXT CONTAINERS*/
 
+/*FOOTER & NAV*/
 footer {
     width: 100%;
     background: black;
@@ -204,19 +215,49 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-
+/*END FOOTER & NAV*/
 
 /*START ABOUT PAGE STYLING*/
+
 .aboutBox{
     border-bottom: 1px dashed black;
     padding: 20px;
 }
 
-.gridOne{
+/*START INFO GRID*/
+.grid{
+    padding: 30px 0;
+}
+/*FOUR GRID BOXES*/
+.gridChild{
     display:flex;
 }
 
-.gridTwo{
-    display:flex;
+.gridGrandchild{
+    margin:15px;
     border-bottom: 1px dashed black;
+    padding: 20px 0px; 
+}
+
+.gridGrandchild h1{
+    margin: 10px 0;
+}
+
+.gridGrandchild p{
+    margin: 20px 0;
+}
+
+.gridGrandchild button{
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1.5px solid black;
+    font-size: 14px;
+}
+/*END INFO GRID*/
+
+/*BOTTOM WORK TOGETHER SECTION*/
+.bottom{
+    padding: 0px 10px 30px;
 }
