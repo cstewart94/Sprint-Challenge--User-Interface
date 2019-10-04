@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    align-items:flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
